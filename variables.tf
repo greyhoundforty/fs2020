@@ -28,6 +28,14 @@ variable "zone2_cidr" {
   description = "CIDR block to be used for zone 2"
 }
 
+variable "zone3" {
+  default = "us-south-3"
+}
+
+variable "zone3_cidr" {
+  default = "172.16.3.0/24"
+}
+
 variable "ssh_public_key" {
   default = ""
   description = "SSH Public Key contents to be used"
